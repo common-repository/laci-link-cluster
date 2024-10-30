@@ -1,0 +1,26 @@
+.laci-setting-item-per-page,
+.laci-setting-taxonomies {
+  display: none;
+}
+
+.laci-laci-placement-assistant-container {
+  position: relative;
+}
+
+.laci-placement-assistant {
+  opacity: 0.2;
+}
+
+.laci-laci-placement-assistant-update-pro {
+  z-index: 9999;
+  position: absolute;
+  top: 20%;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.laci-update-pro-text .laci-buy-pro {
+  cursor: pointer;
+  padding: 30px;
+  font-size: 20px;
+}

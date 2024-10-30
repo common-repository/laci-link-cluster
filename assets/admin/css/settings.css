@@ -1,0 +1,83 @@
+.laci-switch {
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.laci-switch input {
+  display: none;
+}
+
+.laci-switch .slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.laci-switch .slider:before {
+  background-color: #fff;
+  bottom: 2px;
+  content: "";
+  height: 16px;
+  left: 2px;
+  position: absolute;
+  transition: 0.4s;
+  width: 16px;
+}
+
+.laci-switch input:checked + .slider {
+  background-color: #66bb6a;
+}
+
+.laci-switch input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+.laci-switch .slider.round {
+  border-radius: 34px;
+}
+
+.laci-switch .slider.round:before {
+  border-radius: 50%;
+}
+
+.laci-custom-related-box {
+  display: flex;
+}
+
+.laci-custom-related-box-form {
+  width: 60%;
+}
+
+.laci-custom-related-box-review {
+  width: 40%;
+}
+
+.laci-custom-related-box-container {
+  padding: 20px;
+}
+
+.laci-related-box-label {
+  min-width: 50px;
+  display: inline-block !important;
+}
+
+.wp-picker-container {
+  display: inline-block;
+  position: relative;
+}
+
+.wp-picker-holder {
+  position: absolute;
+  z-index: 9999999;
+}
+
+.laci-related-box-label:nth-child(n + 2) {
+  margin-left: 10px;
+}
